@@ -1,0 +1,45 @@
+# Azure Data Factory Notes
+
+## What is Azure Data Factory?
+- **Azure Data Factory (ADF)** is a cloud-based **ETL (Extract, Transform, Load) and data integration service** provided by Microsoft Azure.
+- It is used to perform **ETL operations** in the Azure environment.
+- It helps **move, transform, and load data** from multiple sources to a unified destination.
+
+## What is ETL?
+- **Extract:** Retrieve data from multiple sources (e.g., SQL Server, PostgreSQL, SFTP, Azure Cloud).
+- **Transform:** Clean, filter, and process the data (e.g., handle null values, select necessary columns).
+- **Load:** Store the processed data in a unified location for reporting (e.g., Power BI, Tableau).
+
+## Use Cases of Azure Data Factory
+1. **Data Migration** – Move data from on-premise servers to the cloud.
+2. **Client Data Processing** – Transfer data from client servers to Azure for analysis.
+3. **Data Integration** – Unify data from multiple sources into a single dataset.
+
+## How to Create Azure Data Factory?
+1. **Login to Azure Portal** ([portal.azure.com](https://portal.azure.com)).
+2. **Search for Data Factory** in the search bar and click on it.
+3. **Click on 'Create'** to set up a new Data Factory.
+4. **Select Subscription & Resource Group:**
+   - Choose an existing resource group or create a new one.
+5. **Set Data Factory Name:**
+   - Enter a unique name for your Data Factory.
+6. **Select Region & Version:**
+   - Choose a region close to your location.
+7. **Configure Git (Optional):**
+   - Skip if not using Git integration.
+8. **Set Networking Options:**
+   - Choose **Public Endpoint** for now.
+9. **Review & Create:**
+   - Check all details and click **Create**.
+10. **Access ADF Studio:**
+    - Once deployment is complete, click **Go to Resource** > **Launch ADF Studio**.
+
+## Azure Data Factory Interface
+- **Home:** Overview of ADF.
+- **Author:** Create **pipelines, datasets, and data flows**.
+- **Monitor:** Track running pipelines.
+- **Manage:** Configure linked services and integrations.
+
+---
+These notes summarize Azure Data Factory, its use cases, and the steps to create and use it in Azure. Let me know if you need any modifications! 😊
+
